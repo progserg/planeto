@@ -1,0 +1,540 @@
+@font-face {
+    font-family: "Dosis Bold";
+    src: url("fonts/Dosis-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Dosis Regular";
+    src: url("fonts/Dosis-Regular.otf");
+
+}
+@font-face {
+    font-family: "Dosis-Light";
+    src: url("fonts/Dosis-Light.ttf");
+
+}
+@font-face {
+    font-family: "Open Sans Light";
+    src: url("fonts/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: "Freehand575 BT Regular";
+    src: url("fonts/ufonts.com_freehand-575-bt.ttf");
+}
+@font-face {
+    font-family: "Dosis ExtraLight";
+    src: url("fonts/Dosis-ExtraLight.ttf");
+}
+@font-face {
+    font-family: "Open Sans Italic";
+    src: url("fonts/OpenSans-Italic.ttf");
+}
+
+html {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.block{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+.none{
+    display: none;
+}
+.clear {
+    clear: both;
+}
+.img14 {
+    margin-right: 16px;
+    width: 14px;
+    height: 14px;
+}
+
+.img38 {
+    width: 38px;
+    height: 38px;
+}
+
+.img34 {
+    width: 34px;
+    height: 34px;
+}
+
+.img58 {
+    width: 58px;
+    height: 58px;
+}
+
+.img126 {
+    width: 126px;
+    height: 126px;
+}
+
+#header {
+    position: absolute;
+    padding-top: 30px;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.back {
+    height: 538px;
+    background: url("../img/header_back.png") no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.rect {
+    height: 100px;
+    background-color: #40b684;
+    border-bottom: 1px solid #4ebf8f;
+}
+
+.shadow {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+p.logo {
+    margin-left: 15px;
+    position: relative;
+    top: -36px;
+    font: bold 36px/36px "Dosis Bold";
+    text-transform: uppercase;
+    float: left;
+}
+
+ul.menu {
+    list-style-type: none;
+    float: right;
+
+}
+
+ul.menu li {
+    margin-right: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    font: bold 16px/16px "Dosis Bold";
+}
+
+ul.menu li:last-child {
+    margin-right: 0;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul.menu li a:hover {
+    color: #ffffff;
+}
+
+ul.menu li a hr {
+    display: none;
+}
+
+ul.menu li a:hover hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-radius: 10%;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.header-h1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: bold 48px/48px "Dosis Regular";
+}
+
+p.header-h1 {
+    text-align: center;
+}
+
+/*
+левое меню headera
+*/
+.header-left-menu {
+    margin-left: 40px;
+    width: 155px;
+    height: 144px;
+    float: left;
+}
+
+.globe-wire {
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+
+.connect-point {
+    margin-top: 40px;
+    width: 51px;
+    height: 51px;
+    float: left;
+}
+
+.lamp {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 57px;
+    height: 57px;
+}
+
+/*
+левое меню headera
+*/
+/*
+правое меню headera
+*/
+.header-right-menu {
+    margin-right: 75px;
+    width: 118px;
+    height: 195px;
+    float: right;
+}
+
+.text-horizontal {
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+
+.layers {
+    margin-top: 53px;
+    width: 51px;
+    height: 51px;
+    float: right;
+}
+
+.cloud {
+    float: right;
+    margin-top: 32px;
+    margin-right: 18px;
+    width: 57px;
+    height: 57px;
+}
+
+/*
+правое меню headera
+*/
+/*
+разделитель три точки
+*/
+.spliter-dot {
+    margin-right: 10px;
+}
+
+.spliter-dot:last-child {
+    margin-right: 0;
+}
+
+/*
+разделитель три точки
+*/
+/*
+лампочковое меню
+*/
+.menu-left {
+    width: 295px;
+    height: 170px;
+    float: left;
+    padding-right: 80px;
+    padding-top: 56px;
+}
+
+.lamp-grey {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.top-left {
+    top: 15px;
+    left: 46px;
+}
+
+.big {
+    left: 110px;
+    top: -18px;
+}
+
+.top-right{
+    top: -222px;
+    left: 244px;
+}
+.bottom-left{
+    top: -70px;
+}
+.bottom-right{
+    top: -120px;
+    left: 254px;
+}
+/*
+лампочковое меню
+*/
+/*
+блок текста
+*/
+.content-block{
+    padding-top: 64px;
+    height: 270px;
+}
+.block-text{
+    max-width: 560px;
+}
+.content-h1 {
+    text-transform: uppercase;
+    font: 100 40px/40px "Dosis-Light";
+}
+.content-text{
+    font: 100 16px/28px "Open Sans Light";
+}
+.button{
+    padding: 10px 0px;
+    text-align: center;
+    width: 136px;
+    height: 16px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font: bold 16px/16px "Dosis Bold";
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+.arrow{
+    padding: 5px 0;
+    text-align: center;
+    display: inline-block;
+    width: 35px;
+    height: 17px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+.arrow img{
+    width: 10px;
+    height: 14px;
+}
+a:hover.img-link{
+    box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.7);
+}
+.menu-right{
+
+}
+.page-spliter{
+    margin: 85px 0;
+    height: 200px;
+    background-color: #45b887;
+}
+.spliter-h1{
+    padding-top: 30px;
+    color: #ffffff;
+    text-align: center;
+    font: normal 48px/48px "Freehand575 BT Regular";
+}
+.list{
+    list-style-type: none;
+    padding: 0;
+}
+.line{
+    display: inline-block;
+    padding-right: 8px;
+    height: 48px;
+}
+.line:last-child{
+    padding-right: 0;
+}
+.number{
+    float: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    font: 100 60px/72px "Dosis ExtraLight";
+}
+.info{
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-left: 8px;
+    float: left;
+    color: #ffffff;
+    text-transform: lowercase;
+    font: normal 24px/24px "Dosis Regular";
+}
+.block-arrow{
+    width: 100px;
+    padding-top: 30px;
+}
+.sans-italic{
+    color: #c9c9c9;
+    font: italic 12px/12px "Dosis Regular";
+}
+.partners{
+    height: 234px;
+    margin: 0 auto;
+}
+.partners:last-child{
+    margin-bottom: 36px;
+}
+.partner{
+    width: 313px;
+    height: 234px;
+}
+.airplanes{
+    background: url("../img/cudi-airplanes.png") no-repeat center;
+}
+.health{
+    background: url("../img/your-health.png") no-repeat center;
+}
+.partner-text{
+
+}
+.star-caffee{
+    background: url("../img/star-caffee.png") no-repeat center;
+}
+.nuke-studios{
+    background: url("../img/nuke-studios.png") no-repeat center;
+}
+.kings-food{
+    background: url("../img/kings-food.png") no-repeat center;
+}
+a.partner:hover{
+    background-color: #fafafa;
+}
+.project-buttons{
+    margin-top: 30px;
+}
+.project-button{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+    font: bold 14px/32px "Dosis Bold";
+    text-transform: uppercase;
+    text-align: center;
+    width: 56px;
+    height: 30px;
+    margin-right: 20px;
+}
+.project-button:first-child{
+    color: #ffffff;
+    background-color: #000000;
+}
+.project-button:last-child{
+    margin-right: 0;
+}
+.projects{
+    background-color: #ffffff;
+}
+.project{
+    width: 300px;
+    height: 240px;
+    background-color: #dfdfdf;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.project:first-child{
+    margin-left: 0;
+}
+.project:hover{
+    background-color: #d2d1d0;
+}
+.portfolio-btn{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+    font: bold 14px/40px "Dosis Bold";
+    text-transform: uppercase;
+    text-align: center;
+    height: 40px;
+    padding: 0 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.spliter-line{
+    height: 2px;
+    background-color: #e8e8e8;
+}
+.logo-black{
+    width: 189px;
+    height: 35px;
+    background: url("../img/logo-black.png") no-repeat center;
+    padding: 30px 0;
+}
+#footer p.text{
+    color: #282828;
+    font: 100 14px/24px "Open Sans Light";
+}
+.contacts{
+    color: #282828;
+    text-transform: uppercase;
+    font: bold 18px/54px "Dosis Bold";
+    text-align: right;
+}
+.contact-info{
+    color: #282828;
+    text-align: right;
+    font: 100 24px/40px "Open Sans Light";
+}
+.footer-btns{
+    width: 470px;
+    height: 25px;
+    padding: 18px 0;
+}
+.footer-btns:last-child{
+    padding-right: 0;
+}
+.footer-btn{
+    width: 25px;
+    height: 25px;
+    padding-right: 27px;
+}
+.footer-btn:last-child{
+    padding-right: 0;
+}
+.facebook{
+    background: url("../img/facebook.png") no-repeat left;
+}
+.twitter{
+    background: url("../img/twitter.png") no-repeat left;
+}
+.skype{
+    background: url("../img/skype.png") no-repeat left;
+}
+.mark{
+    position: relative;
+    left: 50%;
+    width: 71px;
+    height: 61px;
+    background: url("../img/2013.png") no-repeat center;
+}
+.footer-link{
+    color: #282828;
+    text-transform: uppercase;
+    font: bold 14px/36px "Dosis Bold";
+    text-align: right;
+}
