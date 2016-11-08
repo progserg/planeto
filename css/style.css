@@ -40,6 +40,16 @@
     src: url("fonts/OpenSans-Bold.ttf");
 }
 
+@font-face {
+    font-family: "Dosis ExtraBold";
+    src: url("fonts/Dosis-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Dosis SemiBold";
+    src: url("fonts/Dosis-SemiBold.ttf");
+}
+
 html {
 }
 
@@ -85,6 +95,11 @@ a {
 .img13 {
     width: 13px;
     height: 13px;
+}
+
+.img24 {
+    width: 24px;
+    height: 24px;
 }
 
 .img38 {
@@ -192,7 +207,7 @@ ul.menu li a:hover hr {
 .header-h1 {
     letter-spacing: 4px;
     text-transform: uppercase;
-    font: bold 48px/48px "Dosis Regular";
+    font: 100 48px/48px "Dosis Regular";
 }
 
 p.header-h1 {
@@ -556,6 +571,7 @@ a.partner:hover {
 }
 
 #footer p.text {
+    width: 528px;
     color: #282828;
     font: 100 14px/24px "Open Sans Light";
 }
@@ -623,6 +639,7 @@ a:last-child .footer-btn {
 }
 
 h2 {
+    letter-spacing: 6px;
     color: #282828;
     text-transform: uppercase;
     font: normal 36px/48px "Dosis Regular";
@@ -682,9 +699,14 @@ h3 {
     color: #282828;
     font: bold 16px/16px "Open Sans Bold";
 }
+.h3-contact{
+    text-transform: uppercase;
+    font: bold 18px/18px "Dosis Bold";
+    margin-bottom: 5px;
+}
 
 textarea {
-    width: 278px;
+    width: 274px;
     height: 27px;
     padding-top: 10px;
     padding-left: 20px;
@@ -696,19 +718,23 @@ textarea {
     resize: none;
     margin-bottom: 16px;
 }
-textarea:nth-child(even){
-    margin-right: 16px;
+
+textarea:nth-child(even) {
+    margin-right: 14px;
 }
-textarea:nth-child(odd){
+
+textarea:nth-child(odd) {
     margin-right: 0;
 }
-textarea.text{
+
+textarea.text {
     width: 598px;
     height: 114px;
     margin-right: 0;
     margin-bottom: 0;
 }
-.carrer-btn{
+
+.carrer-btn {
     border: 2px solid #414141;
     border-radius: 7px;
     color: #414141;
@@ -720,4 +746,235 @@ textarea.text{
     width: 144px;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+p.about {
+    font: bold 16px/28px "Open Sans Bold";
+}
+
+div.about {
+    font: 100 16px/28px "Open Sans Light";
+    display: inline-block;
+    width: 430px;
+    margin-bottom: 46px;
+}
+
+div.about:nth-last-child(1) {
+    margin-left: 50px;
+}
+
+.chronology-background {
+    height: 326px;
+    background-color: #fbfbfb;
+}
+
+.chronology {
+    width: 820px;
+    margin: 0 auto;
+}
+
+.popup {
+    /*display: none;      */
+    width: 120px;
+    height: 77px;
+    font: 100 13px/18px "Open Sans Light";
+    text-align: center;
+    background: url("../img/popup.png") no-repeat center;
+}
+
+.popup p {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 104px;
+    overflow: hidden;
+}
+
+#popup1 {
+    margin-left: 0;
+}
+
+#popup2 {
+    margin-left: 140px;
+}
+
+#popup3 {
+    margin-left: 280px;
+}
+
+#popup4 {
+    margin-left: 420px;
+}
+
+#popup5 {
+    margin-left: 560px;
+}
+
+#popup6 {
+    margin-left: 680px;
+}
+
+.dotted-spliter {
+    width: 108px;
+    height: 24px;
+    display: inline-block;
+    background: url("../img/dotted-spliter.png") no-repeat center;
+}
+
+.about-spliter {
+    width: 728px;
+    height: 24px;
+    margin: 0 auto;
+}
+
+.about-dot {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url("../img/spliter-dot.png") no-repeat center;
+}
+
+.date {
+    margin-right: 16px;
+    margin-top: 30px;
+    display: inline-block;
+    width: 120px;
+    height: 36px;
+    color: #282828;
+}
+
+.date:last-child {
+    margin-right: 0;
+}
+
+.month {
+    padding: 0;
+    margin: 0;
+    font: 900 13px/13px "Dosis ExtraBold";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.year {
+    padding: 0;
+    margin: 0;
+    font: bold 24px/24px "Dosis Bold";
+    text-align: center;
+}
+
+.team-content {
+    height: 106px;
+    margin-bottom: 36px;
+}
+
+.team-foto {
+    display: inline-block;
+    width: 106px;
+    height: 106px;
+    margin-right: 50px;
+    background: url("../img/big-circle.png") no-repeat center;
+}
+
+.team-info {
+    display: inline-block;
+    width: 190px;
+    margin-right: 50px;
+}
+
+.post {
+    color: #7e7e7e;
+    font: bold 14px/14px "Dosis Bold";
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    color: #414141;
+    font: bold 22px/24px "Dosis Bold";
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    border-width: 4px;
+    border-bottom: solid;
+    padding-bottom: 6px;
+}
+
+.links {
+    color: #3bb682;
+    font: bold 14px/24px "Dosis Bold";
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.links-dot-spliter {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: url("../img/small-dot.png") no-repeat center;
+}
+
+.about-employee {
+    display: inline-block;
+    width: 514px;
+    font: 100 14px/24px "Open Sans Light";
+}
+
+.team-info:last-child {
+    margin-right: 0;
+}
+
+.team-info-inline {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font: 600 24px/48px "Dosis SemiBold";
+}
+
+.text-390 {
+    display: inline-block;
+    width: 390px;
+    font: 100 14px/22px "Open Sans Light";
+    margin-right: 26px;
+}
+
+.text-390:last-child {
+    margin-right: 0;
+}
+
+.progress-back {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: url("../img/progress-back.png") no-repeat center;
+}
+
+.progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+}
+#progress-90{
+    width: 90%;
+}
+#progress-85{
+    width: 85%;
+}
+#progress-80{
+    width: 80%;
+}
+.img24-align{
+    display: block;
+    margin: 34px auto 38px auto;
+}
+.contact-information{
+
 }
